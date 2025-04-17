@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.M</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap">
+    </head>
+  </head>
+
+  <body>
+    <script>
+      var password = prompt("パスワードを入力してください:");
+      if (password !== "miyata") {
+        document.body.innerHTML = "<h1>アクセスが拒否されました</h1>";
+      }
+    </script>
+    
+    <header>
+      <div class="container">
+        <div class="header-left">
+            <a href="#">
+                <img class="logo" src="images/IMG_0281.png" alt="Back to the top">
+            </a>
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+  
+        <div class="header-right">
+            <a href="About.html">About Me</a>
+            <a href="Skills.html">Skills & Activities</a>
+            <a class="Contact" href="Contact.html">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>A.M</h1>
+        <p>閲覧ありがとうございます</p>
+      </div>
+    </div>
+
+    <div class="main-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h4>貴学歯学部を卒業後、図書館勤務をきっかけに情報技術に興味を持ち、現在は独学でスキルを磨いています</h4>
+          <h3>このページでは、私の志望動機や経験、スキルをご紹介しています</h3>
+        </div>
+
+        <div class="mains">
+          <div class="main">
+            <div class="main-icon">
+              <img src="https://prog-8.com/images/html/advanced/html.png">
+              <p class="overlay-title">Why I am applying</p>
+              <p class="overlay-subtitle">志望動機</p>
+            </div>
+          </div>
+
+          <div class="main">
+            <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
+          </div>
+
+          <div class="main">
+            <div class="main-icon">
+              <img src="https://prog-8.com/images/html/advanced/ruby.png">
+              <p class="overlay-title">Professional Summary</p>
+              <p class="overlay-subtitle">自己PR</p>
+            </div>
+          </div>
+
+          <div class="main">
+            <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer>
+      <div class="container">
+        <p>A.M</p>
+      </div>
+    </footer>
+  </body>
